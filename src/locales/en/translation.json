@@ -1,0 +1,53 @@
+{
+  "worldCup": "WORLD CUP 2026",
+  "home": "Home",
+  "matches": "Matches",
+  "standings": "Standings",
+  "countdown": {
+    "title": "FIFA World Cup 2026",
+    "subtitle": "Final Countdown",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "homePage": {
+    "title": "World Cup Live"
+  },
+  "matchesPage": {
+    "title": "Matches",
+    "nextMatch": "NEXT MATCH",
+    "watchMatch": "Watch Match",
+    "finished": "FINISHED",
+    "fullTime": "Full Time",
+    "upcomingMatches": "Upcoming Matches",
+    "group": "Group",
+    "open": "Open"
+  },
+  "standingsPage": {
+    "title": "Standings",
+    "group": "Group"
+  },
+
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist.",
+    "backHome": "Back Home"
+  },
+  "table": {
+    "team": "Team",
+    "group": "Group",
+    "played": "P",
+    "won": "W",
+    "draw": "D",
+    "lost": "L",
+    "gf": "GF",
+    "ga": "GA",
+    "gd": "GD",
+    "points": "Pts"
+  },
+
+  "bestThird": {
+    "title": "Best Third-Placed Teams"
+  }
+}

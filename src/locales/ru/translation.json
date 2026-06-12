@@ -1,0 +1,53 @@
+{
+  "worldCup": "ЧЕМПИОНАТ МИРА 2026",
+  "home": "Главная",
+  "matches": "Матчи",
+  "standings": "Таблица",
+  "countdown": {
+    "title": "Чемпионат мира FIFA 2026",
+    "subtitle": "Обратный отсчёт",
+    "days": "Дней",
+    "hours": "Часов",
+    "minutes": "Минут",
+    "seconds": "Секунд"
+  },
+  "homePage": {
+    "title": "Прямая трансляция Чемпионата мира"
+  },
+  "matchesPage": {
+    "title": "Матчи",
+    "nextMatch": "СЛЕДУЮЩИЙ МАТЧ",
+    "watchMatch": "Смотреть матч",
+    "finished": "ЗАВЕРШЁН",
+    "fullTime": "Полное время",
+    "upcomingMatches": "Предстоящие матчи",
+    "group": "Группа",
+    "open": "Открыть"
+  },
+  "standingsPage": {
+    "title": "Турнирная таблица",
+    "group": "Группа"
+  },
+
+  "notFound": {
+    "title": "Страница не найдена",
+    "description": "Страница, которую вы ищете, не существует.",
+    "backHome": "На главную"
+  },
+  "table": {
+    "team": "Команда",
+    "group": "Группа",
+    "played": "И",
+    "won": "П",
+    "draw": "Н",
+    "lost": "П",
+    "gf": "ЗГ",
+    "ga": "ПГ",
+    "gd": "РМ",
+    "points": "О"
+  },
+
+  "bestThird": {
+    "title": "Лучшие команды с третьего места"
+  }
+}

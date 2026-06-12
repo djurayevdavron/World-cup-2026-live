@@ -1,0 +1,55 @@
+{
+  "worldCup": "JAHON CHEMPIONATI 2026",
+  "home": "Bosh sahifa",
+  "matches": "O'yinlar",
+  "standings": "Jadvallar",
+  
+  "countdown": {
+    "title": "FIFA Jahon Chempionati 2026",
+    "subtitle": "Tugashigiga qoldi",
+    "days": "Kun",
+    "hours": "Soat",
+    "minutes": "Daqiqa",
+    "seconds": "Soniya"
+  },
+  "homePage": {
+    "title": "Jahon Chempionati Jonli Efir"
+  },
+  "matchesPage": {
+    "title": "O'yinlar",
+    "nextMatch": "KEYINGI O'YIN",
+    "watchMatch": "Tomosha Qilish",
+    "finished": "YAKUNLANGAN",
+    "fullTime": "O'yin Tugadi",
+    "upcomingMatches": "Kelayotgan O'yinlar",
+    "group": "Guruh",
+    "open": "Ochish"
+  },
+  "standingsPage": {
+    "title": "Jadvallar",
+    "group": "Guruh"
+  },
+
+  "notFound": {
+    "title": "Sahifa Topilmadi",
+    "description": "Siz qidirayotgan sahifa mavjud emas.",
+    "backHome": "Bosh Sahifaga"
+  },
+  "table": {
+    "team": "Jamoa",
+    "group": "Guruh",
+    "played": "O'",
+    "won": "Y",
+    "draw": "D",
+    "lost": "M",
+    "gf": "UG",
+    "ga": "OG",
+    "gd": "TF",
+    "points": "O"
+  },
+
+  "bestThird": {
+    "title": "Eng Yaxshi 3-O'rin Jamoalari"
+  }
+
+}
