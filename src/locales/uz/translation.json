@@ -50,6 +50,11 @@
 
   "bestThird": {
     "title": "Eng Yaxshi 3-O'rin Jamoalari"
-  }
+  },
+  "liveStream": "Jonli Translyatsiya",
+  "streamAvailable": "Translyatsiya Setanta Sports orqali mavjud",
+  "streamUnavailable": "Translyatsiya hali mavjud emas",
+  "watchLive": "Jonli Tomosha Qilish",
+  "comingSoon": "Tez Kunda"
 
 }
