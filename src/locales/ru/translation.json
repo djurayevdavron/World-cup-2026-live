@@ -49,5 +49,10 @@
 
   "bestThird": {
     "title": "Лучшие команды с третьего места"
-  }
+  },
+  "liveStream": "Прямая трансляция",
+  "streamAvailable": "Трансляция доступна на Setanta Sports",
+  "streamUnavailable": "Трансляция пока недоступна",
+  "watchLive": "Смотреть трансляцию",
+  "comingSoon": "Скоро"
 }
