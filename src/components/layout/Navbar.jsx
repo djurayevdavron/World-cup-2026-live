@@ -8,24 +8,74 @@ function Navbar() {
   const { t } = useTranslation();
 
   return (
-    <header className="sticky top-0 z-50 bg-slate-900 border-b border-slate-800">
-      <div className="max-w-screen-2xl mx-auto px-6 h-16 flex items-center justify-between">
+    <header className="sticky top-0 z-50">
+      <div
+        className="
+  w-[98%]
+  max-w-[1800px]
+
+  mx-auto
+
+  px-6
+
+  h-20
+  2xl:h-24
+
+  flex
+  items-center
+  justify-between
+
+  bg-slate-900/95
+  backdrop-blur-md
+
+  rounded-2xl
+
+  border border-slate-800
+
+  shadow-xl
+"
+      >
         {/* Logo */}
         <Link to="/" className="flex items-center gap-4">
           <img
             src="/images/FWC-26-Logo-for-Countdown.svg"
             alt="World Cup"
-            className="h-14"
+            className="h-14 2xl:h-20"
           />
 
-          <h1 className="text-base sm:text-lg md:text-3xl font-bold text-yellow-400">
+          <h1
+            className="
+            text-xl
+            md:text-3xl
+            xl:text-4xl
+            2xl:text-5xl
+            font-bold
+            text-yellow-400
+          "
+          >
             {t("worldCup")}
           </h1>
         </Link>
 
         {/* Navigation */}
         <nav className="hidden md:block">
-          <ul className="flex items-center gap-10 text-white text-xl font-semibold">
+          <ul
+            className="
+             flex
+             items-center
+             gap-10
+
+             2xl:gap-16
+
+             text-white
+             text-xl
+             2xl:text-3xl
+
+             font-semibold
+
+             2xl:mt-3
+            "
+          >
             <li>
               <Link to="/" className="hover:text-yellow-400">
                 {t("home")}
@@ -106,5 +156,4 @@ function Navbar() {
     </header>
   );
 }
-
 export default Navbar;
