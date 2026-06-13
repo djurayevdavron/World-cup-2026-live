@@ -225,9 +225,9 @@ export const matches = [
   awayTeam: "Paraguay",
   homeFlag: "/flags/usa.png",
   awayFlag: "/flags/paraguay.png",
-  date: "2026-06-13",
-  time: "06:00",
-  status: "upcoming",
+  homeScore: 4,
+  awayScore: 1,
+  status: "finished",
 },
 
 {
