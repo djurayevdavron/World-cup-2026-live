@@ -94,6 +94,8 @@ export const matches = [
   date: "2026-06-14",
   time: "00:00",
   status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/304585"
 },
 
 {
@@ -155,6 +157,7 @@ export const matches = [
   date: "2026-06-14",
   time: "03:00",
   status: "upcoming",
+  stream:"https://app.setantasports.com/live/304586"
 },
 
 {
@@ -167,6 +170,7 @@ export const matches = [
   date: "2026-06-14",
   time: "06:00",
   status: "upcoming",
+  stream:"https://app.setantasports.com/live/304587"
 },
 
 {
@@ -240,6 +244,7 @@ export const matches = [
   date: "2026-06-14",
   time: "09:00",
   status: "upcoming",
+  stream : "https://app.setantasports.com/live/304588"
 },
 
 {
@@ -875,7 +880,6 @@ export const matches = [
   status: "upcoming",
 },
 ];
-
 
 
 
