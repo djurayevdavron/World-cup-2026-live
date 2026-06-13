@@ -36,7 +36,7 @@ function LiveMatch() {
           </p>
 
           <a
-            href="https://app.setantasports.com/live/304584"
+            href="https://app.setantasports.com/live/304585"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-yellow-400 text-black font-bold px-6 py-3 rounded-xl hover:bg-yellow-300 transition"
