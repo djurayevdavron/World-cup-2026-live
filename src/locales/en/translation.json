@@ -49,5 +49,10 @@
 
   "bestThird": {
     "title": "Best Third-Placed Teams"
-  }
+  },
+  "liveStream": "Live Stream",
+  "streamAvailable": "Stream is available on Setanta Sports",
+  "streamUnavailable": "Stream is not available yet",
+  "watchLive": "Watch Live Stream",
+  "comingSoon": "Coming Soon"
 }
