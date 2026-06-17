@@ -107,7 +107,7 @@ function Navbar() {
             </SheetTrigger>
 
             <SheetContent
-              side="left"
+              side="right"
               className="w-[320px] bg-slate-950 text-white border-slate-800"
             >
               <div className="mt-12 flex flex-col gap-8 px-2">
