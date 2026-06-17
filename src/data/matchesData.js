@@ -623,10 +623,9 @@ export const matches = [
   awayTeam: "Senegal",
   homeFlag: "/flags/france.png",
   awayFlag: "/flags/senegal.png",
-  date: "2026-06-17",
-  time: "00:00",
-  status: "upcoming",
-  stream:"https://app.setantasports.com/live/304597"
+  homeScore: 3,
+  awayScore: 1,
+  status: "finished",
 },
 
 {
@@ -636,10 +635,9 @@ export const matches = [
   awayTeam: "Norway",
   homeFlag: "/flags/iraq.png",
   awayFlag: "/flags/norway.png",
-  date: "2026-06-17",
-  time: "03:00",
-  status: "upcoming",
-  stream:"https://app.setantasports.com/live/304598"
+  homeScore: 1,
+  awayScore: 4,
+  status: "finished",
 },
 
 {
@@ -701,10 +699,9 @@ export const matches = [
   awayTeam: "Algeria",
   homeFlag: "/flags/argentina.png",
   awayFlag: "/flags/algeria.png",
-  date: "2026-06-17",
-  time: "06:00",
-  status: "upcoming",
-  stream:"https://app.setantasports.com/live/304599"
+  homeScore: 3,
+  awayScore: 0,
+  status: "finished",
 },
 
 {
@@ -714,10 +711,9 @@ export const matches = [
   awayTeam: "Jordan",
   homeFlag: "/flags/austria.png",
   awayFlag: "/flags/jordan.png",
-  date: "2026-06-17",
-  time: "09:00",
-  status: "upcoming",
-  stream:"https://app.setantasports.com/live/304600"
+  homeScore: 3,
+  awayScore: 1,
+  status: "finished",
 },
 
 {
