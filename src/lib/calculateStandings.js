@@ -12,18 +12,14 @@ export function calculateStandings(matches, groupTeams) {
       ga: 0,
       gd: 0,
       points: 0,
+      awayGoals: 0,
     };
   });
 
   matches
     .filter((match) => match.status === "finished")
     .forEach((match) => {
-      const {
-        homeTeam,
-        awayTeam,
-        homeScore,
-        awayScore,
-      } = match;
+      const { homeTeam, awayTeam, homeScore, awayScore } = match;
 
       if (!teams[homeTeam] || !teams[awayTeam]) return;
 
@@ -35,6 +31,7 @@ export function calculateStandings(matches, groupTeams) {
 
       teams[awayTeam].gf += awayScore;
       teams[awayTeam].ga += homeScore;
+      teams[awayTeam].awayGoals += awayScore;
 
       if (homeScore > awayScore) {
         teams[homeTeam].won++;
@@ -59,12 +56,52 @@ export function calculateStandings(matches, groupTeams) {
       gd: team.gf - team.ga,
     }))
     .sort((a, b) => {
-      if (b.points !== a.points)
+      // 1. Points
+      if (b.points !== a.points) {
         return b.points - a.points;
+      }
 
-      if (b.gd !== a.gd)
+      // 2. Head-to-Head
+      const h2h = matches.find(
+        (match) =>
+          match.status === "finished" &&
+          ((match.homeTeam === a.name && match.awayTeam === b.name) ||
+            (match.homeTeam === b.name && match.awayTeam === a.name)),
+      );
+
+      if (h2h) {
+        // A yutgan
+        if (
+          (h2h.homeTeam === a.name && h2h.homeScore > h2h.awayScore) ||
+          (h2h.awayTeam === a.name && h2h.awayScore > h2h.homeScore)
+        ) {
+          return -1;
+        }
+
+        // B yutgan
+        if (
+          (h2h.homeTeam === b.name && h2h.homeScore > h2h.awayScore) ||
+          (h2h.awayTeam === b.name && h2h.awayScore > h2h.homeScore)
+        ) {
+          return 1;
+        }
+      }
+
+      // 3. Goal Difference
+      if (b.gd !== a.gd) {
         return b.gd - a.gd;
+      }
 
-      return b.gf - a.gf;
+      // 4. Goals For
+      if (b.gf !== a.gf) {
+        return b.gf - a.gf;
+      }
+
+      // 5. Away Goals
+      if (b.awayGoals !== a.awayGoals) {
+        return b.awayGoals - a.awayGoals;
+      }
+
+      return 0;
     });
 }
