@@ -5,22 +5,39 @@ import { useTranslation } from "react-i18next";
 
 function MatchesPage() {
   const { t } = useTranslation();
-  const nextMatch = matches
-    .filter((match) => match.status === "upcoming")
-    .sort(
-      (a, b) =>
-        new Date(`${a.date} ${a.time}`) - new Date(`${b.date} ${b.time}`),
-    )[0];
+  const now = new Date();
 
-  const lastFinishedMatch = [...matches]
-    .filter((match) => match.status === "finished")
-    .reverse()[0];
+  const nextMatch = matches
+  .filter(match =>
+    match.status === "upcoming"
+  )
+  .sort(
+    (a,b) =>
+      new Date(`${a.date}T${a.time}`) -
+      new Date(`${b.date}T${b.time}`)
+  )[0];
+  const liveMatch = matches.find(
+  match =>
+    match.status === "live"
+);
+
+  const lastFinishedMatch = matches
+  .filter(match => match.status === "finished")
+  .sort(
+    (a, b) =>
+      new Date(`${b.date}T${b.time}`) -
+      new Date(`${a.date}T${a.time}`)
+  )[0];
 
   const upcomingMatches = matches
-    .filter((match) => match.status === "upcoming")
+    .filter((match) => {
+      const matchDate = new Date(`${match.date}T${match.time}:00`);
+
+      return match.status === "upcoming" && matchDate > now;
+    })
     .sort(
       (a, b) =>
-        new Date(`${a.date} ${a.time}`) - new Date(`${b.date} ${b.time}`),
+        new Date(`${a.date}T${a.time}:00`) - new Date(`${b.date}T${b.time}:00`),
     );
 
   return (
