@@ -10,10 +10,10 @@ export const groups = {
   E: ["Germany", "Curacao", "Ivory Coast", "Ecuador"],
 
   F: ["Netherlands", "Japan", "Sweden", "Tunisia"],
+  
+  G: ["Belgium", "Egypt", "Iran", "New Zealand"],
 
-  G: ["Spain", "Cape Verde", "Saudi Arabia", "Uruguay"],
-
-  H: ["Belgium", "Egypt", "Iran", "New Zealand"],
+  H: ["Spain", "Cape Verde", "Saudi Arabia", "Uruguay"],
 
   I: ["France", "Senegal", "Iraq", "Norway"],
 
