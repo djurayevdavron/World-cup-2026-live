@@ -1,1406 +1,1420 @@
 export const matches = [
- // GROUP A
-
-{
-  id: 1,
-  group: "A",
-  homeTeam: "Mexico",
-  awayTeam: "South Africa",
-  homeFlag: "/flags/mexico.png",
-  awayFlag: "/flags/south-africa-republic.png",
-
-  date: "2026-06-12",
-  time: "00:00",
-
-  homeScore: 2,
-  awayScore: 0,
-
-  status: "finished",
-},
-
-{
-  id: 2,
-  group: "A",
-  homeTeam: "South Korea",
-  awayTeam: "Czech Republic",
-  homeFlag: "/flags/south-korea.png",
-  awayFlag: "/flags/czech-republic.png",
+  // GROUP A
 
-  date: "2026-06-12",
-  time: "07:00",
+  {
+    id: 1,
 
-  homeScore: 2,
-  awayScore: 1,
+    group: "A",
 
-  status: "finished",
-},
+    homeTeam: "Mexico",
+    awayTeam: "South Africa",
 
-{
-  id: 3,
-  group: "A",
-  homeTeam: "Czech Republic",
-  awayTeam: "South Africa",
-  homeFlag: "/flags/czech-republic.png",
-  awayFlag: "/flags/south-africa-republic.png",
+    homeFlag: "/flags/mexico.png",
+    awayFlag: "/flags/south-africa-republic.png",
 
-  date: "2026-06-18",
-  time: "21:00",
+    date: "2026-06-12",
+    time: "00:00",
 
-  homeScore: 1,
-  awayScore: 1,
+    homeScore: 2,
+    awayScore: 0,
 
-  status: "finished",
-},
+    status: "finished",
+  },
 
-{
-  id: 4,
-  group: "A",
-  homeTeam: "Mexico",
-  awayTeam: "South Korea",
-  homeFlag: "/flags/mexico.png",
-  awayFlag: "/flags/south-korea.png",
+  {
+    id: 2,
 
-  date: "2026-06-19",
-  time: "06:00",
+    group: "A",
 
-  homeScore: 1,
-  awayScore: 0,
+    homeTeam: "South Korea",
+    awayTeam: "Czech Republic",
 
-  status: "finished",
-},
+    homeFlag: "/flags/south-korea.png",
+    awayFlag: "/flags/czech-republic.png",
 
-{
-  id: 5,
-  group: "A",
-  homeTeam: "Czech Republic",
-  awayTeam: "Mexico",
-  homeFlag: "/flags/czech-republic.png",
-  awayFlag: "/flags/mexico.png",
+    date: "2026-06-12",
+    time: "07:00",
 
-  date: "2026-06-25",
-  time: "06:00",
+    homeScore: 2,
+    awayScore: 1,
 
-  status: "upcoming",
+    status: "finished",
+  },
 
-  stream: "https://app.setantasports.com/live/304634",
-},
+  {
+    id: 3,
 
-{
-  id: 6,
-  group: "A",
-  homeTeam: "South Africa",
-  awayTeam: "South Korea",
-  homeFlag: "/flags/south-africa-republic.png",
-  awayFlag: "/flags/south-korea.png",
+    group: "A",
 
-  date: "2026-06-25",
-  time: "06:00",
+    homeTeam: "Czech Republic",
+    awayTeam: "South Africa",
 
-  status: "upcoming",
+    homeFlag: "/flags/czech-republic.png",
+    awayFlag: "/flags/south-africa-republic.png",
 
-  stream: "https://app.setantasports.com/live/304633",
-},
-// GROUP B
+    date: "2026-06-18",
+    time: "21:00",
 
-{
-  id: 7,
-  group: "B",
+    homeScore: 1,
+    awayScore: 1,
 
-  homeTeam: "Canada",
-  awayTeam: "Bosnia & Herzegovina",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/canada.png",
-  awayFlag: "/flags/bosnia.png",
+  {
+    id: 4,
 
-  date: "2026-06-13",
-  time: "00:00",
+    group: "A",
 
-  homeScore: 1,
-  awayScore: 1,
+    homeTeam: "Mexico",
+    awayTeam: "South Korea",
 
-  status: "finished",
-},
+    homeFlag: "/flags/mexico.png",
+    awayFlag: "/flags/south-korea.png",
 
-{
-  id: 8,
+    date: "2026-06-19",
+    time: "06:00",
 
-  group: "B",
+    homeScore: 1,
+    awayScore: 0,
 
-  homeTeam: "Qatar",
-  awayTeam: "Switzerland",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/qatar.png",
-  awayFlag: "/flags/swits.png",
+  {
+    id: 5,
 
-  date: "2026-06-14",
-  time: "00:00",
+    group: "A",
 
-  homeScore: 1,
-  awayScore: 1,
+    homeTeam: "Czech Republic",
+    awayTeam: "Mexico",
 
-  status: "finished",
-},
+    homeFlag: "/flags/czech-republic.png",
+    awayFlag: "/flags/mexico.png",
 
-{
-  id: 9,
+    date: "2026-06-25",
+    time: "06:00",
 
-  group: "B",
+    status: "upcoming",
 
-  homeTeam: "Switzerland",
-  awayTeam: "Bosnia & Herzegovina",
+    stream: "https://app.setantasports.com/live/304634",
+  },
 
-  homeFlag: "/flags/swits.png",
-  awayFlag: "/flags/bosnia.png",
+  {
+    id: 6,
 
-  date: "2026-06-19",
-  time: "00:00",
+    group: "A",
 
-  homeScore: 4,
-  awayScore: 1,
+    homeTeam: "South Africa",
+    awayTeam: "South Korea",
 
-  status: "finished",
-},
+    homeFlag: "/flags/south-africa-republic.png",
+    awayFlag: "/flags/south-korea.png",
 
-{
-  id: 10,
+    date: "2026-06-25",
+    time: "06:00",
 
-  group: "B",
+    status: "upcoming",
 
-  homeTeam: "Canada",
-  awayTeam: "Qatar",
+    stream: "https://app.setantasports.com/live/304633",
+  },
+  // GROUP B
 
-  homeFlag: "/flags/canada.png",
-  awayFlag: "/flags/qatar.png",
+  {
+    id: 7,
 
-  date: "2026-06-19",
-  time: "03:00",
+    group: "B",
 
-  homeScore: 6,
-  awayScore: 0,
+    homeTeam: "Canada",
+    awayTeam: "Bosnia & Herzegovina",
 
-  status: "finished",
-},
+    homeFlag: "/flags/canada.png",
+    awayFlag: "/flags/bosnia.png",
 
-{
-  id: 11,
+    date: "2026-06-13",
+    time: "00:00",
 
-  group: "B",
+    homeScore: 1,
+    awayScore: 1,
 
-  homeTeam: "Bosnia & Herzegovina",
-  awayTeam: "Qatar",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/bosnia.png",
-  awayFlag: "/flags/qatar.png",
+  {
+    id: 8,
 
-  date: "2026-06-25",
-  time: "00:00",
+    group: "B",
 
-  status: "upcoming",
+    homeTeam: "Qatar",
+    awayTeam: "Switzerland",
 
-  stream: "https://app.setantasports.com/live/304630",
-},
+    homeFlag: "/flags/qatar.png",
+    awayFlag: "/flags/swits.png",
 
-{
-  id: 12,
+    date: "2026-06-14",
+    time: "00:00",
 
-  group: "B",
+    homeScore: 1,
+    awayScore: 1,
 
-  homeTeam: "Switzerland",
-  awayTeam: "Canada",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/swits.png",
-  awayFlag: "/flags/canada.png",
+  {
+    id: 9,
 
-  date: "2026-06-25",
-  time: "00:00",
+    group: "B",
 
-  status: "upcoming",
+    homeTeam: "Switzerland",
+    awayTeam: "Bosnia & Herzegovina",
 
-  stream: "https://app.setantasports.com/live/304629",
-},
-// GROUP C
+    homeFlag: "/flags/swits.png",
+    awayFlag: "/flags/bosnia.png",
 
-{
-  id: 13,
+    date: "2026-06-19",
+    time: "00:00",
 
-  group: "C",
+    homeScore: 4,
+    awayScore: 1,
 
-  homeTeam: "Brazil",
-  awayTeam: "Morocco",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/brazil.png",
-  awayFlag: "/flags/marocco.png",
+  {
+    id: 10,
 
-  date: "2026-06-14",
-  time: "03:00",
+    group: "B",
 
-  homeScore: 1,
-  awayScore: 1,
+    homeTeam: "Canada",
+    awayTeam: "Qatar",
 
-  status: "finished",
-},
+    homeFlag: "/flags/canada.png",
+    awayFlag: "/flags/qatar.png",
 
-{
-  id: 14,
+    date: "2026-06-19",
+    time: "03:00",
 
-  group: "C",
+    homeScore: 6,
+    awayScore: 0,
 
-  homeTeam: "Haiti",
-  awayTeam: "Scotland",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/haiti.png",
-  awayFlag: "/flags/scotland.png",
+  {
+    id: 11,
 
-  date: "2026-06-14",
-  time: "06:00",
+    group: "B",
 
-  homeScore: 0,
-  awayScore: 1,
+    homeTeam: "Bosnia & Herzegovina",
+    awayTeam: "Qatar",
 
-  status: "finished",
-},
+    homeFlag: "/flags/bosnia.png",
+    awayFlag: "/flags/qatar.png",
 
-{
-  id: 15,
+    date: "2026-06-25",
+    time: "00:00",
 
-  group: "C",
+    status: "upcoming",
 
-  homeTeam: "Scotland",
-  awayTeam: "Morocco",
+    stream: "https://app.setantasports.com/live/304630",
+  },
 
-  homeFlag: "/flags/scotland.png",
-  awayFlag: "/flags/marocco.png",
+  {
+    id: 12,
 
-  date: "2026-06-20",
-  time: "03:00",
+    group: "B",
 
-  homeScore: 0,
-  awayScore: 1,
+    homeTeam: "Switzerland",
+    awayTeam: "Canada",
 
-  status: "finished",
-},
+    homeFlag: "/flags/swits.png",
+    awayFlag: "/flags/canada.png",
 
-{
-  id: 16,
+    date: "2026-06-25",
+    time: "00:00",
 
-  group: "C",
+    status: "upcoming",
 
-  homeTeam: "Brazil",
-  awayTeam: "Haiti",
+    stream: "https://app.setantasports.com/live/304629",
+  },
+  // GROUP C
 
-  homeFlag: "/flags/brazil.png",
-  awayFlag: "/flags/haiti.png",
+  {
+    id: 13,
 
-  date: "2026-06-20",
-  time: "05:30",
+    group: "C",
 
-  homeScore: 3,
-  awayScore: 0,
+    homeTeam: "Brazil",
+    awayTeam: "Morocco",
 
-  status: "finished",
-},
+    homeFlag: "/flags/brazil.png",
+    awayFlag: "/flags/morocco.png",
 
-{
-  id: 17,
+    date: "2026-06-14",
+    time: "03:00",
 
-  group: "C",
+    homeScore: 1,
+    awayScore: 1,
 
-  homeTeam: "Morocco",
-  awayTeam: "Haiti",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/marocco.png",
-  awayFlag: "/flags/haiti.png",
+  {
+    id: 14,
 
-  date: "2026-06-25",
-  time: "03:00",
+    group: "C",
 
-  status: "upcoming",
+    homeTeam: "Haiti",
+    awayTeam: "Scotland",
 
-  stream: "https://app.setantasports.com/live/304631",
-},
+    homeFlag: "/flags/haiti.png",
+    awayFlag: "/flags/scotland.png",
 
-{
-  id: 18,
+    date: "2026-06-14",
+    time: "06:00",
 
-  group: "C",
+    homeScore: 0,
+    awayScore: 1,
 
-  homeTeam: "Scotland",
-  awayTeam: "Brazil",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/scotland.png",
-  awayFlag: "/flags/brazil.png",
+  {
+    id: 15,
 
-  date: "2026-06-25",
-  time: "03:00",
+    group: "C",
 
-  status: "upcoming",
+    homeTeam: "Scotland",
+    awayTeam: "Morocco",
 
-  stream: "https://app.setantasports.com/live/304632",
-},
-// GROUP D
+    homeFlag: "/flags/scotland.png",
+    awayFlag: "/flags/morocco.png",
 
-// GROUP D
+    date: "2026-06-20",
+    time: "03:00",
 
-{
-  id: 19,
+    homeScore: 0,
+    awayScore: 1,
 
-  group: "D",
+    status: "finished",
+  },
 
-  homeTeam: "USA",
-  awayTeam: "Paraguay",
+  {
+    id: 16,
 
-  homeFlag: "/flags/usa.png",
-  awayFlag: "/flags/paraguay.png",
+    group: "C",
 
-  date: "2026-06-13",
-  time: "06:00",
+    homeTeam: "Brazil",
+    awayTeam: "Haiti",
 
-  homeScore: 4,
-  awayScore: 1,
+    homeFlag: "/flags/brazil.png",
+    awayFlag: "/flags/haiti.png",
 
-  status: "finished",
-},
+    date: "2026-06-20",
+    time: "05:30",
 
-{
-  id: 20,
+    homeScore: 3,
+    awayScore: 0,
 
-  group: "D",
+    status: "finished",
+  },
 
-  homeTeam: "Australia",
-  awayTeam: "Turkey",
+  {
+    id: 17,
 
-  homeFlag: "/flags/australia.png",
-  awayFlag: "/flags/turkey.png",
+    group: "C",
 
-  date: "2026-06-14",
-  time: "09:00",
+    homeTeam: "Morocco",
+    awayTeam: "Haiti",
 
-  homeScore: 2,
-  awayScore: 0,
+    homeFlag: "/flags/morocco.png",
+    awayFlag: "/flags/haiti.png",
 
-  status: "finished",
-},
+    date: "2026-06-25",
+    time: "03:00",
 
-{
-  id: 21,
+    status: "upcoming",
 
-  group: "D",
+    stream: "https://app.setantasports.com/live/304631",
+  },
 
-  homeTeam: "USA",
-  awayTeam: "Australia",
+  {
+    id: 18,
 
-  homeFlag: "/flags/usa.png",
-  awayFlag: "/flags/australia.png",
+    group: "C",
 
-  date: "2026-06-20",
-  time: "00:00",
+    homeTeam: "Scotland",
+    awayTeam: "Brazil",
 
-  homeScore: 2,
-  awayScore: 0,
+    homeFlag: "/flags/scotland.png",
+    awayFlag: "/flags/brazil.png",
 
-  status: "finished",
-},
+    date: "2026-06-25",
+    time: "03:00",
 
-{
-  id: 22,
+    status: "upcoming",
 
-  group: "D",
+    stream: "https://app.setantasports.com/live/304632",
+  },
+  // GROUP D
 
-  homeTeam: "Turkey",
-  awayTeam: "Paraguay",
+  {
+    id: 19,
 
-  homeFlag: "/flags/turkey.png",
-  awayFlag: "/flags/paraguay.png",
+    group: "D",
 
-  date: "2026-06-20",
-  time: "08:00",
+    homeTeam: "USA",
+    awayTeam: "Paraguay",
 
-  homeScore: 0,
-  awayScore: 1,
+    homeFlag: "/flags/usa.png",
+    awayFlag: "/flags/paraguay.png",
 
-  status: "finished",
-},
+    date: "2026-06-13",
+    time: "06:00",
 
-{
-  id: 23,
+    homeScore: 4,
+    awayScore: 1,
 
-  group: "D",
+    status: "finished",
+  },
 
-  homeTeam: "Paraguay",
-  awayTeam: "Australia",
+  {
+    id: 20,
 
-  homeFlag: "/flags/paraguay.png",
-  awayFlag: "/flags/australia.png",
+    group: "D",
 
-  date: "2026-06-26",
-  time: "07:00",
+    homeTeam: "Australia",
+    awayTeam: "Turkey",
 
-  status: "upcoming",
+    homeFlag: "/flags/australia.png",
+    awayFlag: "/flags/turkey.png",
 
-  stream: "https://app.setantasports.com/live/304639",
-},
+    date: "2026-06-14",
+    time: "09:00",
 
-{
-  id: 24,
+    homeScore: 2,
+    awayScore: 0,
 
-  group: "D",
+    status: "finished",
+  },
 
-  homeTeam: "Turkey",
-  awayTeam: "USA",
+  {
+    id: 21,
 
-  homeFlag: "/flags/turkey.png",
-  awayFlag: "/flags/usa.png",
+    group: "D",
 
-  date: "2026-06-26",
-  time: "07:00",
+    homeTeam: "USA",
+    awayTeam: "Australia",
 
-  status: "upcoming",
+    homeFlag: "/flags/usa.png",
+    awayFlag: "/flags/australia.png",
 
-  stream: "https://app.setantasports.com/live/304640",
-},
+    date: "2026-06-20",
+    time: "00:00",
 
-// GROUP E
+    homeScore: 2,
+    awayScore: 0,
 
-{
-  id: 25,
+    status: "finished",
+  },
 
-  group: "E",
+  {
+    id: 22,
 
-  homeTeam: "Germany",
-  awayTeam: "Curacao",
+    group: "D",
 
-  homeFlag: "/flags/germany.png",
-  awayFlag: "/flags/curasao.png",
+    homeTeam: "Turkey",
+    awayTeam: "Paraguay",
 
-  date: "2026-06-14",
-  time: "22:00",
+    homeFlag: "/flags/turkey.png",
+    awayFlag: "/flags/paraguay.png",
 
-  homeScore: 7,
-  awayScore: 1,
+    date: "2026-06-20",
+    time: "08:00",
 
-  status: "finished",
-},
+    homeScore: 0,
+    awayScore: 1,
 
-{
-  id: 26,
+    status: "finished",
+  },
 
-  group: "E",
+  {
+    id: 23,
 
-  homeTeam: "Ivory Coast",
-  awayTeam: "Ecuador",
+    group: "D",
 
-  homeFlag: "/flags/ivory-coast.png",
-  awayFlag: "/flags/ecuador.png",
+    homeTeam: "Paraguay",
+    awayTeam: "Australia",
 
-  date: "2026-06-15",
-  time: "04:00",
+    homeFlag: "/flags/paraguay.png",
+    awayFlag: "/flags/australia.png",
 
-  homeScore: 1,
-  awayScore: 0,
+    date: "2026-06-26",
+    time: "07:00",
 
-  status: "finished",
-},
+    status: "upcoming",
 
-{
-  id: 27,
+    stream: "https://app.setantasports.com/live/304639",
+  },
 
-  group: "E",
+  {
+    id: 24,
 
-  homeTeam: "Germany",
-  awayTeam: "Ivory Coast",
+    group: "D",
 
-  homeFlag: "/flags/germany.png",
-  awayFlag: "/flags/ivory-coast.png",
+    homeTeam: "Turkey",
+    awayTeam: "USA",
 
-  date: "2026-06-21",
-  time: "01:00",
+    homeFlag: "/flags/turkey.png",
+    awayFlag: "/flags/usa.png",
 
-  homeScore: 2,
-  awayScore: 1,
+    date: "2026-06-26",
+    time: "07:00",
 
-  status: "finished",
-},
+    status: "upcoming",
 
-{
-  id: 28,
+    stream: "https://app.setantasports.com/live/304640",
+  },
 
-  group: "E",
+  // GROUP E
 
-  homeTeam: "Ecuador",
-  awayTeam: "Curacao",
+  {
+    id: 25,
 
-  homeFlag: "/flags/ecuador.png",
-  awayFlag: "/flags/curasao.png",
+    group: "E",
 
-  date: "2026-06-21",
-  time: "05:00",
+    homeTeam: "Germany",
+    awayTeam: "Curacao",
 
-  homeScore: 0,
-  awayScore: 0,
+    homeFlag: "/flags/germany.png",
+    awayFlag: "/flags/curacao.png",
 
-  status: "finished",
-},
+    date: "2026-06-14",
+    time: "22:00",
 
-{
-  id: 29,
+    homeScore: 7,
+    awayScore: 1,
 
-  group: "E",
+    status: "finished",
+  },
 
-  homeTeam: "Ecuador",
-  awayTeam: "Germany",
+  {
+    id: 26,
 
-  homeFlag: "/flags/ecuador.png",
-  awayFlag: "/flags/germany.png",
+    group: "E",
 
-  date: "2026-06-26",
-  time: "01:00",
+    homeTeam: "Ivory Coast",
+    awayTeam: "Ecuador",
 
-  status: "upcoming",
+    homeFlag: "/flags/ivory-coast.png",
+    awayFlag: "/flags/ecuador.png",
 
-  stream: "https://app.setantasports.com/live/304635",
-},
+    date: "2026-06-15",
+    time: "04:00",
 
-{
-  id: 30,
+    homeScore: 1,
+    awayScore: 0,
 
-  group: "E",
+    status: "finished",
+  },
 
-  homeTeam: "Curacao",
-  awayTeam: "Ivory Coast",
+  {
+    id: 27,
 
-  homeFlag: "/flags/curasao.png",
-  awayFlag: "/flags/ivory-coast.png",
+    group: "E",
 
-  date: "2026-06-26",
-  time: "01:00",
+    homeTeam: "Germany",
+    awayTeam: "Ivory Coast",
 
-  status: "upcoming",
+    homeFlag: "/flags/germany.png",
+    awayFlag: "/flags/ivory-coast.png",
 
-  stream: "https://app.setantasports.com/live/304636",
-},
-// GROUP F
+    date: "2026-06-21",
+    time: "01:00",
 
-{
-  id: 31,
+    homeScore: 2,
+    awayScore: 1,
 
-  group: "F",
+    status: "finished",
+  },
 
-  homeTeam: "Netherlands",
-  awayTeam: "Japan",
+  {
+    id: 28,
 
-  homeFlag: "/flags/netherlands.png",
-  awayFlag: "/flags/japan.png",
+    group: "E",
 
-  date: "2026-06-15",
-  time: "22:00",
+    homeTeam: "Ecuador",
+    awayTeam: "Curacao",
 
-  homeScore: 2,
-  awayScore: 2,
+    homeFlag: "/flags/ecuador.png",
+    awayFlag: "/flags/curacao.png",
 
-  status: "finished",
-},
+    date: "2026-06-21",
+    time: "05:00",
 
-{
-  id: 32,
+    homeScore: 0,
+    awayScore: 0,
 
-  group: "F",
+    status: "finished",
+  },
 
-  homeTeam: "Sweden",
-  awayTeam: "Tunisia",
+  {
+    id: 29,
 
-  homeFlag: "/flags/sweden.png",
-  awayFlag: "/flags/tunisia.png",
+    group: "E",
 
-  date: "2026-06-16",
-  time: "04:00",
+    homeTeam: "Ecuador",
+    awayTeam: "Germany",
 
-  homeScore: 5,
-  awayScore: 1,
+    homeFlag: "/flags/ecuador.png",
+    awayFlag: "/flags/germany.png",
 
-  status: "finished",
-},
+    date: "2026-06-26",
+    time: "01:00",
 
-{
-  id: 33,
+    status: "upcoming",
 
-  group: "F",
+    stream: "https://app.setantasports.com/live/304635",
+  },
 
-  homeTeam: "Netherlands",
-  awayTeam: "Sweden",
+  {
+    id: 30,
 
-  homeFlag: "/flags/netherlands.png",
-  awayFlag: "/flags/sweden.png",
+    group: "E",
 
-  date: "2026-06-22",
-  time: "01:00",
+    homeTeam: "Curacao",
+    awayTeam: "Ivory Coast",
 
-  homeScore: 5,
-  awayScore: 1,
+    homeFlag: "/flags/curacao.png",
+    awayFlag: "/flags/ivory-coast.png",
 
-  status: "finished",
-},
+    date: "2026-06-26",
+    time: "01:00",
 
-{
-  id: 34,
+    status: "upcoming",
 
-  group: "F",
+    stream: "https://app.setantasports.com/live/304636",
+  },
 
-  homeTeam: "Tunisia",
-  awayTeam: "Japan",
+  // GROUP F
 
-  homeFlag: "/flags/tunisia.png",
-  awayFlag: "/flags/japan.png",
+  {
+    id: 31,
 
-  date: "2026-06-22",
-  time: "05:00",
+    group: "F",
 
-  homeScore: 0,
-  awayScore: 4,
+    homeTeam: "Netherlands",
+    awayTeam: "Japan",
 
-  status: "finished",
-},
+    homeFlag: "/flags/netherlands.png",
+    awayFlag: "/flags/japan.png",
 
-{
-  id: 35,
+    date: "2026-06-15",
+    time: "22:00",
 
-  group: "F",
+    homeScore: 2,
+    awayScore: 2,
 
-  homeTeam: "Japan",
-  awayTeam: "Sweden",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/japan.png",
-  awayFlag: "/flags/sweden.png",
+  {
+    id: 32,
 
-  date: "2026-06-26",
-  time: "04:00",
+    group: "F",
 
-  status: "upcoming",
+    homeTeam: "Sweden",
+    awayTeam: "Tunisia",
 
-  stream: "https://app.setantasports.com/live/304638",
-},
+    homeFlag: "/flags/sweden.png",
+    awayFlag: "/flags/tunisia.png",
 
-{
-  id: 36,
+    date: "2026-06-16",
+    time: "04:00",
 
-  group: "F",
+    homeScore: 5,
+    awayScore: 1,
 
-  homeTeam: "Tunisia",
-  awayTeam: "Netherlands",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/tunisia.png",
-  awayFlag: "/flags/netherlands.png",
+  {
+    id: 33,
 
-  date: "2026-06-26",
-  time: "04:00",
+    group: "F",
 
-  status: "upcoming",
+    homeTeam: "Netherlands",
+    awayTeam: "Sweden",
 
-  stream: "https://app.setantasports.com/live/304637",
-},
-// GROUP F
+    homeFlag: "/flags/netherlands.png",
+    awayFlag: "/flags/sweden.png",
 
-{
-  id: 31,
+    date: "2026-06-22",
+    time: "01:00",
 
-  group: "F",
+    homeScore: 5,
+    awayScore: 1,
 
-  homeTeam: "Netherlands",
-  awayTeam: "Japan",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/netherlands.png",
-  awayFlag: "/flags/japan.png",
+  {
+    id: 34,
 
-  date: "2026-06-15",
-  time: "22:00",
+    group: "F",
 
-  homeScore: 2,
-  awayScore: 2,
+    homeTeam: "Tunisia",
+    awayTeam: "Japan",
 
-  status: "finished",
-},
+    homeFlag: "/flags/tunisia.png",
+    awayFlag: "/flags/japan.png",
 
-{
-  id: 32,
+    date: "2026-06-22",
+    time: "05:00",
 
-  group: "F",
+    homeScore: 0,
+    awayScore: 4,
 
-  homeTeam: "Sweden",
-  awayTeam: "Tunisia",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/sweden.png",
-  awayFlag: "/flags/tunisia.png",
+  {
+    id: 35,
 
-  date: "2026-06-16",
-  time: "04:00",
+    group: "F",
 
-  homeScore: 5,
-  awayScore: 1,
+    homeTeam: "Japan",
+    awayTeam: "Sweden",
 
-  status: "finished",
-},
+    homeFlag: "/flags/japan.png",
+    awayFlag: "/flags/sweden.png",
 
-{
-  id: 33,
+    date: "2026-06-26",
+    time: "04:00",
 
-  group: "F",
+    status: "upcoming",
 
-  homeTeam: "Netherlands",
-  awayTeam: "Sweden",
+    stream: "https://app.setantasports.com/live/304638",
+  },
 
-  homeFlag: "/flags/netherlands.png",
-  awayFlag: "/flags/sweden.png",
+  {
+    id: 36,
 
-  date: "2026-06-22",
-  time: "01:00",
+    group: "F",
 
-  homeScore: 5,
-  awayScore: 1,
+    homeTeam: "Tunisia",
+    awayTeam: "Netherlands",
 
-  status: "finished",
-},
+    homeFlag: "/flags/tunisia.png",
+    awayFlag: "/flags/netherlands.png",
 
-{
-  id: 34,
+    date: "2026-06-26",
+    time: "04:00",
 
-  group: "F",
+    status: "upcoming",
 
-  homeTeam: "Tunisia",
-  awayTeam: "Japan",
+    stream: "https://app.setantasports.com/live/304637",
+  },
 
-  homeFlag: "/flags/tunisia.png",
-  awayFlag: "/flags/japan.png",
+  // GROUP G
 
-  date: "2026-06-22",
-  time: "05:00",
+  {
+    id: 37,
 
-  homeScore: 0,
-  awayScore: 4,
+    group: "G",
 
-  status: "finished",
-},
+    homeTeam: "Belgium",
+    awayTeam: "Egypt",
 
-{
-  id: 35,
+    homeFlag: "/flags/belgium.png",
+    awayFlag: "/flags/egypt.png",
 
-  group: "F",
+    date: "2026-06-16",
+    time: "00:00",
 
-  homeTeam: "Japan",
-  awayTeam: "Sweden",
+    homeScore: 1,
+    awayScore: 1,
 
-  homeFlag: "/flags/japan.png",
-  awayFlag: "/flags/sweden.png",
+    status: "finished",
+  },
 
-  date: "2026-06-26",
-  time: "04:00",
+  {
+    id: 38,
 
-  status: "upcoming",
+    group: "G",
 
-  stream: "https://app.setantasports.com/live/304638",
-},
+    homeTeam: "Iran",
+    awayTeam: "New Zealand",
 
-{
-  id: 36,
+    homeFlag: "/flags/iran.png",
+    awayFlag: "/flags/new-zealand.png",
 
-  group: "F",
+    date: "2026-06-16",
+    time: "06:00",
 
-  homeTeam: "Tunisia",
-  awayTeam: "Netherlands",
+    homeScore: 2,
+    awayScore: 2,
 
-  homeFlag: "/flags/tunisia.png",
-  awayFlag: "/flags/netherlands.png",
+    status: "finished",
+  },
 
-  date: "2026-06-26",
-  time: "04:00",
+  {
+    id: 39,
 
-  status: "upcoming",
+    group: "G",
 
-  stream: "https://app.setantasports.com/live/304637",
-},
-// GROUP H
+    homeTeam: "Belgium",
+    awayTeam: "Iran",
 
-{
-  id: 43,
+    homeFlag: "/flags/belgium.png",
+    awayFlag: "/flags/iran.png",
 
-  group: "H",
+    date: "2026-06-22",
+    time: "00:00",
 
-  homeTeam: "Belgium",
-  awayTeam: "Egypt",
+    status: "upcoming",
 
-  homeFlag: "/flags/belgium.png",
-  awayFlag: "/flags/egypt.png",
+    stream: "https://app.setantasports.com/live/304618",
+  },
 
-  date: "2026-06-16",
-  time: "00:00",
+  {
+    id: 40,
 
-  homeScore: 1,
-  awayScore: 1,
+    group: "G",
 
-  status: "finished",
-},
+    homeTeam: "New Zealand",
+    awayTeam: "Egypt",
 
-{
-  id: 44,
+    homeFlag: "/flags/new-zealand.png",
+    awayFlag: "/flags/egypt.png",
 
-  group: "H",
+    date: "2026-06-22",
+    time: "06:00",
 
-  homeTeam: "Iran",
-  awayTeam: "New Zealand",
+    status: "upcoming",
 
-  homeFlag: "/flags/iran.png",
-  awayFlag: "/flags/new-zealand.png",
+    stream: "https://app.setantasports.com/live/304620",
+  },
 
-  date: "2026-06-16",
-  time: "06:00",
+  {
+    id: 41,
 
-  homeScore: 2,
-  awayScore: 2,
+    group: "G",
 
-  status: "finished",
-},
+    homeTeam: "Egypt",
+    awayTeam: "Iran",
 
-{
-  id: 45,
+    homeFlag: "/flags/egypt.png",
+    awayFlag: "/flags/iran.png",
 
-  group: "H",
+    date: "2026-06-27",
+    time: "08:00",
 
-  homeTeam: "Belgium",
-  awayTeam: "Iran",
+    status: "upcoming",
 
-  homeFlag: "/flags/belgium.png",
-  awayFlag: "/flags/iran.png",
+    stream: "https://app.setantasports.com/live/304646",
+  },
 
-  date: "2026-06-22",
-  time: "00:00",
+  {
+    id: 42,
 
-  status: "upcoming",
+    group: "G",
 
-  stream: "https://app.setantasports.com/live/304618",
-},
+    homeTeam: "New Zealand",
+    awayTeam: "Belgium",
 
-{
-  id: 46,
+    homeFlag: "/flags/new-zealand.png",
+    awayFlag: "/flags/belgium.png",
 
-  group: "H",
+    date: "2026-06-27",
+    time: "08:00",
 
-  homeTeam: "New Zealand",
-  awayTeam: "Egypt",
+    status: "upcoming",
 
-  homeFlag: "/flags/new-zealand.png",
-  awayFlag: "/flags/egypt.png",
+    stream: "https://app.setantasports.com/live/304645",
+  },
+  // GROUP H
 
-  date: "2026-06-22",
-  time: "06:00",
+  {
+    id: 43,
 
-  status: "upcoming",
+    group: "H",
 
-  stream: "https://app.setantasports.com/live/304620",
-},
+    homeTeam: "Spain",
+    awayTeam: "Cape Verde",
 
-{
-  id: 47,
+    homeFlag: "/flags/spain.png",
+    awayFlag: "/flags/cape-verde.png",
 
-  group: "H",
+    date: "2026-06-15",
+    time: "21:00",
 
-  homeTeam: "Egypt",
-  awayTeam: "Iran",
+    homeScore: 0,
+    awayScore: 0,
 
-  homeFlag: "/flags/egypt.png",
-  awayFlag: "/flags/iran.png",
+    status: "finished",
+  },
 
-  date: "2026-06-27",
-  time: "08:00",
+  {
+    id: 44,
 
-  status: "upcoming",
+    group: "H",
 
-  stream: "https://app.setantasports.com/live/304646",
-},
+    homeTeam: "Saudi Arabia",
+    awayTeam: "Uruguay",
 
-{
-  id: 48,
+    homeFlag: "/flags/saudi-arabia.png",
+    awayFlag: "/flags/uruguay.png",
 
-  group: "H",
+    date: "2026-06-16",
+    time: "03:00",
 
-  homeTeam: "New Zealand",
-  awayTeam: "Belgium",
+    homeScore: 1,
+    awayScore: 1,
 
-  homeFlag: "/flags/new-zealand.png",
-  awayFlag: "/flags/belgium.png",
+    status: "finished",
+  },
 
-  date: "2026-06-27",
-  time: "08:00",
+  {
+    id: 45,
 
-  status: "upcoming",
+    group: "H",
 
-  stream: "https://app.setantasports.com/live/304645",
-},
-/// GROUP H
+    homeTeam: "Spain",
+    awayTeam: "Saudi Arabia",
 
-{
-  id: 43,
+    homeFlag: "/flags/spain.png",
+    awayFlag: "/flags/saudi-arabia.png",
 
-  group: "H",
+    date: "2026-06-21",
+    time: "21:00",
 
-  homeTeam: "Belgium",
-  awayTeam: "Egypt",
+    homeScore: 4,
+    awayScore: 0,
 
-  homeFlag: "/flags/belgium.png",
-  awayFlag: "/flags/egypt.png",
+    status: "finished",
+  },
 
-  date: "2026-06-16",
-  time: "00:00",
+  {
+    id: 46,
 
-  homeScore: 1,
-  awayScore: 1,
+    group: "H",
 
-  status: "finished",
-},
+    homeTeam: "Uruguay",
+    awayTeam: "Cape Verde",
 
-{
-  id: 44,
+    homeFlag: "/flags/uruguay.png",
+    awayFlag: "/flags/cape-verde.png",
 
-  group: "H",
+    date: "2026-06-22",
+    time: "03:00",
 
-  homeTeam: "Iran",
-  awayTeam: "New Zealand",
+    status: "upcoming",
 
-  homeFlag: "/flags/iran.png",
-  awayFlag: "/flags/new-zealand.png",
+    stream: "https://app.setantasports.com/live/304619",
+  },
 
-  date: "2026-06-16",
-  time: "06:00",
+  {
+    id: 47,
 
-  homeScore: 2,
-  awayScore: 2,
+    group: "H",
 
-  status: "finished",
-},
+    homeTeam: "Cape Verde",
+    awayTeam: "Saudi Arabia",
 
-{
-  id: 45,
+    homeFlag: "/flags/cape-verde.png",
+    awayFlag: "/flags/saudi-arabia.png",
 
-  group: "H",
+    date: "2026-06-27",
+    time: "05:00",
 
-  homeTeam: "Belgium",
-  awayTeam: "Iran",
+    status: "upcoming",
 
-  homeFlag: "/flags/belgium.png",
-  awayFlag: "/flags/iran.png",
+    stream: "https://app.setantasports.com/live/304644",
+  },
 
-  date: "2026-06-22",
-  time: "00:00",
+  {
+    id: 48,
 
-  status: "upcoming",
+    group: "H",
 
-  stream: "https://app.setantasports.com/live/304618",
-},
+    homeTeam: "Uruguay",
+    awayTeam: "Spain",
 
-{
-  id: 46,
+    homeFlag: "/flags/uruguay.png",
+    awayFlag: "/flags/spain.png",
 
-  group: "H",
+    date: "2026-06-27",
+    time: "05:00",
 
-  homeTeam: "New Zealand",
-  awayTeam: "Egypt",
+    status: "upcoming",
 
-  homeFlag: "/flags/new-zealand.png",
-  awayFlag: "/flags/egypt.png",
+    stream: "https://app.setantasports.com/live/304643",
+  },
+  // GROUP I
 
-  date: "2026-06-22",
-  time: "06:00",
+  {
+    id: 49,
 
-  status: "upcoming",
+    group: "I",
 
-  stream: "https://app.setantasports.com/live/304620",
-},
+    homeTeam: "France",
+    awayTeam: "Senegal",
 
-{
-  id: 47,
+    homeFlag: "/flags/france.png",
+    awayFlag: "/flags/senegal.png",
 
-  group: "H",
+    date: "2026-06-17",
+    time: "00:00",
 
-  homeTeam: "Egypt",
-  awayTeam: "Iran",
+    homeScore: 3,
+    awayScore: 1,
 
-  homeFlag: "/flags/egypt.png",
-  awayFlag: "/flags/iran.png",
+    status: "finished",
+  },
 
-  date: "2026-06-27",
-  time: "08:00",
+  {
+    id: 50,
 
-  status: "upcoming",
+    group: "I",
 
-  stream: "https://app.setantasports.com/live/304646",
-},
+    homeTeam: "Iraq",
+    awayTeam: "Norway",
 
-{
-  id: 48,
+    homeFlag: "/flags/iraq.png",
+    awayFlag: "/flags/norway.png",
 
-  group: "H",
+    date: "2026-06-17",
+    time: "06:00",
 
-  homeTeam: "New Zealand",
-  awayTeam: "Belgium",
+    homeScore: 1,
+    awayScore: 4,
 
-  homeFlag: "/flags/new-zealand.png",
-  awayFlag: "/flags/belgium.png",
+    status: "finished",
+  },
 
-  date: "2026-06-27",
-  time: "08:00",
+  {
+    id: 51,
 
-  status: "upcoming",
+    group: "I",
 
-  stream: "https://app.setantasports.com/live/304645",
-},
-// GROUP J
+    homeTeam: "France",
+    awayTeam: "Iraq",
 
-{
-  id: 55,
+    homeFlag: "/flags/france.png",
+    awayFlag: "/flags/iraq.png",
 
-  group: "J",
+    date: "2026-06-23",
+    time: "02:00",
 
-  homeTeam: "Argentina",
-  awayTeam: "Algeria",
+    status: "upcoming",
 
-  homeFlag: "/flags/argentina.png",
-  awayFlag: "/flags/algeria.png",
+    stream: "https://app.setantasports.com/live/304622",
+  },
 
-  date: "2026-06-17",
-  time: "22:00",
+  {
+    id: 52,
 
-  homeScore: 3,
-  awayScore: 0,
+    group: "I",
 
-  status: "finished",
-},
+    homeTeam: "Norway",
+    awayTeam: "Senegal",
 
-{
-  id: 56,
+    homeFlag: "/flags/norway.png",
+    awayFlag: "/flags/senegal.png",
 
-  group: "J",
+    date: "2026-06-23",
+    time: "05:00",
 
-  homeTeam: "Austria",
-  awayTeam: "Jordan",
+    status: "upcoming",
 
-  homeFlag: "/flags/austria.png",
-  awayFlag: "/flags/jordan.png",
+    stream: "https://app.setantasports.com/live/304623",
+  },
 
-  date: "2026-06-18",
-  time: "04:00",
+  {
+    id: 53,
 
-  homeScore: 3,
-  awayScore: 1,
+    group: "I",
 
-  status: "finished",
-},
+    homeTeam: "Norway",
+    awayTeam: "France",
 
-{
-  id: 57,
+    homeFlag: "/flags/norway.png",
+    awayFlag: "/flags/france.png",
 
-  group: "J",
+    date: "2026-06-27",
+    time: "00:00",
 
-  homeTeam: "Argentina",
-  awayTeam: "Austria",
+    status: "upcoming",
+  },
 
-  homeFlag: "/flags/argentina.png",
-  awayFlag: "/flags/austria.png",
+  {
+    id: 54,
 
-  date: "2026-06-22",
-  time: "22:00",
+    group: "I",
 
-  status: "upcoming",
+    homeTeam: "Senegal",
+    awayTeam: "Iraq",
 
-  stream:"https://app.setantasports.com/live/304621"
-},
+    homeFlag: "/flags/senegal.png",
+    awayFlag: "/flags/iraq.png",
 
-{
-  id: 58,
+    date: "2026-06-27",
+    time: "00:00",
 
-  group: "J",
+    status: "upcoming",
 
-  homeTeam: "Jordan",
-  awayTeam: "Algeria",
+    stream: "https://app.setantasports.com/live/304642",
+  },
+  // GROUP J
 
-  homeFlag: "/flags/jordan.png",
-  awayFlag: "/flags/algeria.png",
+  {
+    id: 55,
 
-  date: "2026-06-23",
-  time: "08:00",
+    group: "J",
 
-  status: "upcoming",
+    homeTeam: "Argentina",
+    awayTeam: "Algeria",
 
-  stream:"https://app.setantasports.com/live/304624"
-},
+    homeFlag: "/flags/argentina.png",
+    awayFlag: "/flags/algeria.png",
 
-{
-  id: 59,
+    date: "2026-06-17",
+    time: "22:00",
 
-  group: "J",
+    homeScore: 3,
+    awayScore: 0,
 
-  homeTeam: "Algeria",
-  awayTeam: "Austria",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/algeria.png",
-  awayFlag: "/flags/austria.png",
+  {
+    id: 56,
 
-  date: "2026-06-28",
-  time: "07:00",
+    group: "J",
 
-  status: "upcoming",
+    homeTeam: "Austria",
+    awayTeam: "Jordan",
 
-  stream:"https://app.setantasports.com/live/304652"
-},
+    homeFlag: "/flags/austria.png",
+    awayFlag: "/flags/jordan.png",
 
-{
-  id: 60,
+    date: "2026-06-18",
+    time: "04:00",
 
-  group: "J",
+    homeScore: 3,
+    awayScore: 1,
 
-  homeTeam: "Jordan",
-  awayTeam: "Argentina",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/jordan.png",
-  awayFlag: "/flags/argentina.png",
+  {
+    id: 57,
 
-  date: "2026-06-28",
-  time: "07:00",
+    group: "J",
 
-  status: "upcoming",
+    homeTeam: "Argentina",
+    awayTeam: "Austria",
 
-  stream:"https://app.setantasports.com/live/304651"
-},
-// GROUP K
+    homeFlag: "/flags/argentina.png",
+    awayFlag: "/flags/austria.png",
 
-{
-  id: 61,
+    date: "2026-06-22",
+    time: "22:00",
 
-  group: "K",
+    status: "upcoming",
 
-  homeTeam: "Portugal",
-  awayTeam: "D.R. Congo",
+    stream: "https://app.setantasports.com/live/304621",
+  },
 
-  homeFlag: "/flags/portugal.png",
-  awayFlag: "/flags/DR-Congo.png",
+  {
+    id: 58,
 
-  date: "2026-06-18",
-  time: "22:00",
+    group: "J",
 
-  homeScore: 1,
-  awayScore: 1,
+    homeTeam: "Jordan",
+    awayTeam: "Algeria",
 
-  status: "finished",
-},
+    homeFlag: "/flags/jordan.png",
+    awayFlag: "/flags/algeria.png",
 
-{
-  id: 62,
+    date: "2026-06-23",
+    time: "08:00",
 
-  group: "K",
+    status: "upcoming",
 
-  homeTeam: "Uzbekistan",
-  awayTeam: "Colombia",
+    stream: "https://app.setantasports.com/live/304624",
+  },
 
-  homeFlag: "/flags/uzbekistan.png",
-  awayFlag: "/flags/colombia.png",
+  {
+    id: 59,
 
-  date: "2026-06-19",
-  time: "04:00",
+    group: "J",
 
-  homeScore: 1,
-  awayScore: 3,
+    homeTeam: "Algeria",
+    awayTeam: "Austria",
 
-  status: "finished",
-},
+    homeFlag: "/flags/algeria.png",
+    awayFlag: "/flags/austria.png",
 
-{
-  id: 63,
+    date: "2026-06-28",
+    time: "07:00",
 
-  group: "K",
+    status: "upcoming",
 
-  homeTeam: "Portugal",
-  awayTeam: "Uzbekistan",
+    stream: "https://app.setantasports.com/live/304652",
+  },
 
-  homeFlag: "/flags/portugal.png",
-  awayFlag: "/flags/uzbekistan.png",
+  {
+    id: 60,
 
-  date: "2026-06-23",
-  time: "22:00",
+    group: "J",
 
-  status: "upcoming",
+    homeTeam: "Jordan",
+    awayTeam: "Argentina",
 
-  stream:"https://app.setantasports.com/live/304625"
-},
+    homeFlag: "/flags/jordan.png",
+    awayFlag: "/flags/argentina.png",
 
-{
-  id: 64,
+    date: "2026-06-28",
+    time: "07:00",
 
-  group: "K",
+    status: "upcoming",
 
-  homeTeam: "Colombia",
-  awayTeam: "D.R. Congo",
+    stream: "https://app.setantasports.com/live/304651",
+  },
+  // GROUP K
 
-  homeFlag: "/flags/colombia.png",
-  awayFlag: "/flags/DR-Congo.png",
+  {
+    id: 61,
 
-  date: "2026-06-24",
-  time: "07:00",
+    group: "K",
 
-  status: "upcoming",
+    homeTeam: "Portugal",
+    awayTeam: "D.R. Congo",
 
-  stream:"https://app.setantasports.com/live/304628"
-},
+    homeFlag: "/flags/portugal.png",
+    awayFlag: "/flags/DR-Congo.png",
 
-{
-  id: 65,
+    date: "2026-06-18",
+    time: "22:00",
 
-  group: "K",
+    homeScore: 1,
+    awayScore: 1,
 
-  homeTeam: "Colombia",
-  awayTeam: "Portugal",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/colombia.png",
-  awayFlag: "/flags/portugal.png",
+  {
+    id: 62,
 
-  date: "2026-06-28",
-  time: "04:30",
+    group: "K",
 
-  status: "upcoming",
+    homeTeam: "Uzbekistan",
+    awayTeam: "Colombia",
 
-  stream:"https://app.setantasports.com/live/304649"
-},
+    homeFlag: "/flags/uzbekistan.png",
+    awayFlag: "/flags/colombia.png",
 
-{
-  id: 66,
+    date: "2026-06-19",
+    time: "04:00",
 
-  group: "K",
+    homeScore: 1,
+    awayScore: 3,
 
-  homeTeam: "D.R. Congo",
-  awayTeam: "Uzbekistan",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/DR-Congo.png",
-  awayFlag: "/flags/uzbekistan.png",
+  {
+    id: 63,
 
-  date: "2026-06-28",
-  time: "04:30",
+    group: "K",
 
-  status: "upcoming",
+    homeTeam: "Portugal",
+    awayTeam: "Uzbekistan",
 
-  stream:"https://app.setantasports.com/live/304650"
-},
-// GROUP K
+    homeFlag: "/flags/portugal.png",
+    awayFlag: "/flags/uzbekistan.png",
 
-{
-  id: 61,
+    date: "2026-06-23",
+    time: "22:00",
 
-  group: "K",
+    status: "upcoming",
 
-  homeTeam: "Portugal",
-  awayTeam: "D.R. Congo",
+    stream: "https://app.setantasports.com/live/304625",
+  },
 
-  homeFlag: "/flags/portugal.png",
-  awayFlag: "/flags/DR-Congo.png",
+  {
+    id: 64,
 
-  date: "2026-06-18",
-  time: "22:00",
+    group: "K",
 
-  homeScore: 1,
-  awayScore: 1,
+    homeTeam: "Colombia",
+    awayTeam: "D.R. Congo",
 
-  status: "finished",
-},
+    homeFlag: "/flags/colombia.png",
+    awayFlag: "/flags/DR-Congo.png",
 
-{
-  id: 62,
+    date: "2026-06-24",
+    time: "07:00",
 
-  group: "K",
+    status: "upcoming",
 
-  homeTeam: "Uzbekistan",
-  awayTeam: "Colombia",
+    stream: "https://app.setantasports.com/live/304628",
+  },
 
-  homeFlag: "/flags/uzbekistan.png",
-  awayFlag: "/flags/colombia.png",
+  {
+    id: 65,
 
-  date: "2026-06-19",
-  time: "04:00",
+    group: "K",
 
-  homeScore: 1,
-  awayScore: 3,
+    homeTeam: "Colombia",
+    awayTeam: "Portugal",
 
-  status: "finished",
-},
+    homeFlag: "/flags/colombia.png",
+    awayFlag: "/flags/portugal.png",
 
-{
-  id: 63,
+    date: "2026-06-28",
+    time: "04:30",
 
-  group: "K",
+    status: "upcoming",
 
-  homeTeam: "Portugal",
-  awayTeam: "Uzbekistan",
+    stream: "https://app.setantasports.com/live/304649",
+  },
 
-  homeFlag: "/flags/portugal.png",
-  awayFlag: "/flags/uzbekistan.png",
+  {
+    id: 66,
 
-  date: "2026-06-23",
-  time: "22:00",
+    group: "K",
 
-  status: "upcoming",
+    homeTeam: "D.R. Congo",
+    awayTeam: "Uzbekistan",
 
-  stream:"https://app.setantasports.com/live/304625"
-},
+    homeFlag: "/flags/DR-Congo.png",
+    awayFlag: "/flags/uzbekistan.png",
 
-{
-  id: 64,
+    date: "2026-06-28",
+    time: "04:30",
 
-  group: "K",
+    status: "upcoming",
 
-  homeTeam: "Colombia",
-  awayTeam: "D.R. Congo",
+    stream: "https://app.setantasports.com/live/304650",
+  },
+  // GROUP L
 
-  homeFlag: "/flags/colombia.png",
-  awayFlag: "/flags/DR-Congo.png",
+  {
+    id: 67,
 
-  date: "2026-06-24",
-  time: "07:00",
+    group: "L",
 
-  status: "upcoming",
+    homeTeam: "England",
+    awayTeam: "Croatia",
 
-  stream:"https://app.setantasports.com/live/304628"
-},
+    homeFlag: "/flags/england.png",
+    awayFlag: "/flags/croatia.png",
 
-{
-  id: 65,
+    date: "2026-06-18",
+    time: "01:00",
 
-  group: "K",
+    homeScore: 4,
+    awayScore: 2,
 
-  homeTeam: "Colombia",
-  awayTeam: "Portugal",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/colombia.png",
-  awayFlag: "/flags/portugal.png",
+  {
+    id: 68,
 
-  date: "2026-06-28",
-  time: "04:30",
+    group: "L",
 
-  status: "upcoming",
+    homeTeam: "Ghana",
+    awayTeam: "Panama",
 
-  stream:"https://app.setantasports.com/live/304649"
-},
+    homeFlag: "/flags/ghana.png",
+    awayFlag: "/flags/panama.png",
 
-{
-  id: 66,
+    date: "2026-06-19",
+    time: "04:00",
 
-  group: "K",
+    homeScore: 1,
+    awayScore: 0,
 
-  homeTeam: "D.R. Congo",
-  awayTeam: "Uzbekistan",
+    status: "finished",
+  },
 
-  homeFlag: "/flags/DR-Congo.png",
-  awayFlag: "/flags/uzbekistan.png",
+  {
+    id: 69,
 
-  date: "2026-06-28",
-  time: "04:30",
+    group: "L",
 
-  status: "upcoming",
+    homeTeam: "England",
+    awayTeam: "Ghana",
 
-  stream:"https://app.setantasports.com/live/304650"
-},
+    homeFlag: "/flags/england.png",
+    awayFlag: "/flags/ghana.png",
+
+    date: "2026-06-24",
+    time: "01:00",
+
+    status: "upcoming",
+
+    stream: "https://app.setantasports.com/live/304626",
+  },
+
+  {
+    id: 70,
+
+    group: "L",
+
+    homeTeam: "Panama",
+    awayTeam: "Croatia",
+
+    homeFlag: "/flags/panama.png",
+    awayFlag: "/flags/croatia.png",
+
+    date: "2026-06-24",
+    time: "06:00",
+
+    status: "upcoming",
+
+    stream: "https://app.setantasports.com/live/304627",
+  },
+
+  {
+    id: 71,
+
+    group: "L",
+
+    homeTeam: "Croatia",
+    awayTeam: "Ghana",
+
+    homeFlag: "/flags/Croatia.png",
+    awayFlag: "/flags/Ghana.png",
+
+    date: "2026-06-28",
+    time: "02:00",
+
+    status: "upcoming",
+
+    stream: "https://app.setantasports.com/live/304648",
+  },
+
+  {
+    id: 72,
+
+    group: "L",
+
+    homeTeam: "Panama",
+    awayTeam: "England",
+
+    homeFlag: "/flags/panama.png",
+    awayFlag: "/flags/england.png",
+
+    date: "2026-06-28",
+    time: "08:00",
+
+    status: "upcoming",
+
+    stream: "https://app.setantasports.com/live/304647",
+  },
 ];
-
-
