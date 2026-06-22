@@ -792,8 +792,8 @@ export const matches = [
     date: "2026-06-22",
     time: "06:00",
 
-    homeScore: 3,
-    awayScore: 1,
+    homeScore: 1,
+    awayScore: 3,
 
     status: "finished",
   },
