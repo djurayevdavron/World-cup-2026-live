@@ -248,7 +248,7 @@ export const matches = [
     awayTeam: "Morocco",
 
     homeFlag: "/flags/brazil.png",
-    awayFlag: "/flags/morocco.png",
+    awayFlag: "/flags/marocco.png",
 
     date: "2026-06-14",
     time: "03:00",
@@ -288,7 +288,7 @@ export const matches = [
     awayTeam: "Morocco",
 
     homeFlag: "/flags/scotland.png",
-    awayFlag: "/flags/morocco.png",
+    awayFlag: "/flags/marocco.png",
 
     date: "2026-06-20",
     time: "03:00",
@@ -327,7 +327,7 @@ export const matches = [
     homeTeam: "Morocco",
     awayTeam: "Haiti",
 
-    homeFlag: "/flags/morocco.png",
+    homeFlag: "/flags/marocco.png",
     awayFlag: "/flags/haiti.png",
 
     date: "2026-06-25",
