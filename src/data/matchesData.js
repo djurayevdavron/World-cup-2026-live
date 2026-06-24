@@ -1246,9 +1246,10 @@ export const matches = [
     date: "2026-06-23",
     time: "22:00",
 
-    status: "upcoming",
+    homeScore: 5,
+    awayScore: 0,
 
-    stream: "https://app.setantasports.com/live/304625",
+    status: "finished",
   },
 
   {
@@ -1265,9 +1266,10 @@ export const matches = [
     date: "2026-06-24",
     time: "07:00",
 
-    status: "upcoming",
+    homeScore: 1,
+    awayScore: 0,
 
-    stream: "https://app.setantasports.com/live/304628",
+    status: "finished",
   },
 
   {
@@ -1363,9 +1365,10 @@ export const matches = [
     date: "2026-06-24",
     time: "01:00",
 
-    status: "upcoming",
+    homeScore: 0,
+    awayScore: 0,
 
-    stream: "https://app.setantasports.com/live/304626",
+    status: "finished",
   },
 
   {
@@ -1382,9 +1385,10 @@ export const matches = [
     date: "2026-06-24",
     time: "06:00",
 
-    status: "upcoming",
+    homeScore: 0,
+    awayScore: 1,
 
-    stream: "https://app.setantasports.com/live/304627",
+    status: "finished",
   },
 
   {
