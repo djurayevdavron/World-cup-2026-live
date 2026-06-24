@@ -487,7 +487,7 @@ export const matches = [
     awayTeam: "Curacao",
 
     homeFlag: "/flags/germany.png",
-    awayFlag: "/flags/curacao.png",
+    awayFlag: "/flags/curasao.png",
 
     date: "2026-06-14",
     time: "22:00",
@@ -547,7 +547,7 @@ export const matches = [
     awayTeam: "Curacao",
 
     homeFlag: "/flags/ecuador.png",
-    awayFlag: "/flags/curacao.png",
+    awayFlag: "/flags/curasao.png",
 
     date: "2026-06-21",
     time: "05:00",
@@ -585,7 +585,7 @@ export const matches = [
     homeTeam: "Curacao",
     awayTeam: "Ivory Coast",
 
-    homeFlag: "/flags/curacao.png",
+    homeFlag: "/flags/curasao.png",
     awayFlag: "/flags/ivory-coast.png",
 
     date: "2026-06-26",
