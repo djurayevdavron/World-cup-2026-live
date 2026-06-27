@@ -845,7 +845,7 @@ export const matches = [
     time: "08:00",
 
     homeScore: 1,
-    awayScore: 1,
+    awayScore: 5,
 
     status: "finished",
   },
