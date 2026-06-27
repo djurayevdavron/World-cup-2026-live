@@ -458,9 +458,10 @@ export const matches = [
     date: "2026-06-26",
     time: "07:00",
 
-    status: "upcoming",
+    homeScore: 0,
+    awayScore: 0,
 
-    stream: "https://app.setantasports.com/live/304639",
+    status: "finished",
   },
 
   {
@@ -477,9 +478,10 @@ export const matches = [
     date: "2026-06-26",
     time: "07:00",
 
-    status: "upcoming",
+    homeScore: 3,
+    awayScore: 2,
 
-    stream: "https://app.setantasports.com/live/304640",
+    status: "finished",
   },
 
   // GROUP E
@@ -578,9 +580,10 @@ export const matches = [
     date: "2026-06-26",
     time: "01:00",
 
-    status: "upcoming",
+    homeScore: 2,
+    awayScore: 1,
 
-    stream: "https://app.setantasports.com/live/304635",
+    status: "finished",
   },
 
   {
@@ -597,9 +600,10 @@ export const matches = [
     date: "2026-06-26",
     time: "01:00",
 
-    status: "upcoming",
+    homeScore: 0,
+    awayScore: 2,
 
-    stream: "https://app.setantasports.com/live/304636",
+    status: "finished",
   },
 
   // GROUP F
@@ -698,9 +702,10 @@ export const matches = [
     date: "2026-06-26",
     time: "04:00",
 
-    status: "upcoming",
+    homeScore: 1,
+    awayScore: 1,
 
-    stream: "https://app.setantasports.com/live/304638",
+    status: "finished",
   },
 
   {
@@ -717,9 +722,10 @@ export const matches = [
     date: "2026-06-26",
     time: "04:00",
 
-    status: "upcoming",
+    homeScore: 1,
+    awayScore: 3,
 
-    stream: "https://app.setantasports.com/live/304637",
+    status: "finished",
   },
 
   // GROUP G
@@ -818,9 +824,10 @@ export const matches = [
     date: "2026-06-27",
     time: "08:00",
 
-    status: "upcoming",
+    homeScore: 1,
+    awayScore: 1,
 
-    stream: "https://app.setantasports.com/live/304646",
+    status: "finished",
   },
 
   {
@@ -837,9 +844,10 @@ export const matches = [
     date: "2026-06-27",
     time: "08:00",
 
-    status: "upcoming",
+    homeScore: 1,
+    awayScore: 1,
 
-    stream: "https://app.setantasports.com/live/304645",
+    status: "finished",
   },
   // GROUP H
 
@@ -937,9 +945,10 @@ export const matches = [
     date: "2026-06-27",
     time: "05:00",
 
-    status: "upcoming",
+    homeScore: 0,
+    awayScore: 0,
 
-    stream: "https://app.setantasports.com/live/304644",
+    status: "finished",
   },
 
   {
@@ -956,9 +965,10 @@ export const matches = [
     date: "2026-06-27",
     time: "05:00",
 
-    status: "upcoming",
+    homeScore: 0,
+    awayScore: 1,
 
-    stream: "https://app.setantasports.com/live/304643",
+    status: "finished",
   },
   // GROUP I
 
@@ -1056,7 +1066,10 @@ export const matches = [
     date: "2026-06-27",
     time: "00:00",
 
-    status: "upcoming",
+    homeScore: 1,
+    awayScore: 4,
+
+    status: "finished",
   },
 
   {
@@ -1073,9 +1086,10 @@ export const matches = [
     date: "2026-06-27",
     time: "00:00",
 
-    status: "upcoming",
+    homeScore: 5,
+    awayScore: 0,
 
-    stream: "https://app.setantasports.com/live/304642",
+    status: "finished",
   },
   // GROUP J
 
@@ -1405,8 +1419,8 @@ export const matches = [
     homeTeam: "Croatia",
     awayTeam: "Ghana",
 
-    homeFlag: "/flags/Croatia.png",
-    awayFlag: "/flags/Ghana.png",
+    homeFlag: "/flags/croatia.png",
+    awayFlag: "/flags/ghana.png",
 
     date: "2026-06-28",
     time: "02:00",
