@@ -1187,9 +1187,10 @@ export const matches = [
     date: "2026-06-28",
     time: "07:00",
 
-    status: "upcoming",
+    homeScore: 3,
+    awayScore: 3,
 
-    stream: "https://app.setantasports.com/live/304652",
+    status: "finished",
   },
 
   {
@@ -1206,9 +1207,10 @@ export const matches = [
     date: "2026-06-28",
     time: "07:00",
 
-    status: "upcoming",
+    homeScore: 1,
+    awayScore: 3,
 
-    stream: "https://app.setantasports.com/live/304651",
+    status: "finished",
   },
   // GROUP K
 
@@ -1306,9 +1308,10 @@ export const matches = [
     date: "2026-06-28",
     time: "04:30",
 
-    status: "upcoming",
+    homeScore: 0,
+    awayScore: 0,
 
-    stream: "https://app.setantasports.com/live/304649",
+    status: "finished",
   },
 
   {
@@ -1322,12 +1325,10 @@ export const matches = [
     homeFlag: "/flags/DR-Congo.png",
     awayFlag: "/flags/uzbekistan.png",
 
-    date: "2026-06-28",
-    time: "04:30",
+    homeScore: 3,
+    awayScore: 1,
 
-    status: "upcoming",
-
-    stream: "https://app.setantasports.com/live/304650",
+    status: "finished",
   },
   // GROUP L
 
@@ -1425,9 +1426,10 @@ export const matches = [
     date: "2026-06-28",
     time: "02:00",
 
-    status: "upcoming",
+    homeScore: 2,
+    awayScore: 1,
 
-    stream: "https://app.setantasports.com/live/304648",
+    status: "finished",
   },
 
   {
@@ -1444,8 +1446,9 @@ export const matches = [
     date: "2026-06-28",
     time: "08:00",
 
-    status: "upcoming",
+    homeScore: 0,
+    awayScore: 2,
 
-    stream: "https://app.setantasports.com/live/304647",
+    status: "finished",
   },
 ];
