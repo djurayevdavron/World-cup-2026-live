@@ -1451,4 +1451,278 @@ export const matches = [
 
     status: "finished",
   },
+  // ROUND OF 32
+
+{
+  id: 73,
+
+  homeTeam: "South Africa",
+  awayTeam: "Canada",
+
+  homeFlag: "/flags/south-africa-republic.png",
+  awayFlag: "/flags/canada.png",
+
+  date: "2026-06-29",
+  time: "00:00",
+
+  homeScore: 0,
+  awayScore: 1,
+
+  status: "finished",
+},
+
+{
+  id: 74,
+
+  homeTeam: "Brazil",
+  awayTeam: "Japan",
+
+  homeFlag: "/flags/brazil.png",
+  awayFlag: "/flags/japan.png",
+
+  date: "2026-06-29",
+  time: "22:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305102",
+},
+
+{
+  id: 75,
+
+  homeTeam: "Germany",
+  awayTeam: "Paraguay",
+
+  homeFlag: "/flags/germany.png",
+  awayFlag: "/flags/paraguay.png",
+
+  date: "2026-06-30",
+  time: "01:30",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305104",
+},
+
+{
+  id: 76,
+
+  homeTeam: "Netherlands",
+  awayTeam: "Morocco",
+
+  homeFlag: "/flags/netherlands.png",
+  awayFlag: "/flags/marocco.png",
+
+  date: "2026-06-30",
+  time: "06:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305106",
+},
+
+{
+  id: 77,
+
+  homeTeam: "Ivory Coast",
+  awayTeam: "Norway",
+
+  homeFlag: "/flags/ivory-coast.png",
+  awayFlag: "/flags/norway.png",
+
+  date: "2026-06-30",
+  time: "22:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305305",
+},
+
+{
+  id: 78,
+
+  homeTeam: "France",
+  awayTeam: "Sweden",
+
+  homeFlag: "/flags/france.png",
+  awayFlag: "/flags/sweden.png",
+
+  date: "2026-07-01",
+  time: "02:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305306",
+},
+
+{
+  id: 79,
+
+  homeTeam: "Mexico",
+  awayTeam: "Ecuador",
+
+  homeFlag: "/flags/mexico.png",
+  awayFlag: "/flags/ecuador.png",
+
+  date: "2026-07-01",
+  time: "06:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305307",
+},
+
+{
+  id: 80,
+
+  homeTeam: "England",
+  awayTeam: "D.R. Congo",
+
+  homeFlag: "/flags/england.png",
+  awayFlag: "/flags/DR-Congo.png",
+
+  date: "2026-07-01",
+  time: "21:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305308",
+},
+
+{
+  id: 81,
+
+  homeTeam: "Belgium",
+  awayTeam: "Senegal",
+
+  homeFlag: "/flags/belgium.png",
+  awayFlag: "/flags/senegal.png",
+
+  date: "2026-07-02",
+  time: "01:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305309",
+},
+
+{
+  id: 82,
+
+  homeTeam: "USA",
+  awayTeam: "Bosnia & Herzegovina",
+
+  homeFlag: "/flags/usa.png",
+  awayFlag: "/flags/bosnia.png",
+
+  date: "2026-07-02",
+  time: "05:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305310",
+},
+
+{
+  id: 83,
+
+  homeTeam: "Spain",
+  awayTeam: "Austria",
+
+  homeFlag: "/flags/spain.png",
+  awayFlag: "/flags/austria.png",
+
+  date: "2026-07-03",
+  time: "00:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305311",
+},
+
+{
+  id: 84,
+
+  homeTeam: "Portugal",
+  awayTeam: "Croatia",
+
+  homeFlag: "/flags/portugal.png",
+  awayFlag: "/flags/croatia.png",
+
+  date: "2026-07-03",
+  time: "04:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305312",
+},
+
+{
+  id: 85,
+
+  homeTeam: "Switzerland",
+  awayTeam: "Algeria",
+
+  homeFlag: "/flags/swits.png",
+  awayFlag: "/flags/algeria.png",
+
+  date: "2026-07-03",
+  time: "08:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305313",
+},
+
+{
+  id: 86,
+
+  homeTeam: "Australia",
+  awayTeam: "Egypt",
+
+  homeFlag: "/flags/australia.png",
+  awayFlag: "/flags/egypt.png",
+
+  date: "2026-07-03",
+  time: "23:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305314",
+},
+
+{
+  id: 87,
+
+  homeTeam: "Argentina",
+  awayTeam: "Cape Verde",
+
+  homeFlag: "/flags/argentina.png",
+  awayFlag: "/flags/cape-verde.png",
+
+  date: "2026-07-04",
+  time: "03:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305315",
+},
+
+{
+  id: 88,
+
+  homeTeam: "Colombia",
+  awayTeam: "Ghana",
+
+  homeFlag: "/flags/colombia.png",
+  awayFlag: "/flags/ghana.png",
+
+  date: "2026-07-04",
+  time: "06:30",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305316",
+},
 ];
