@@ -1483,9 +1483,10 @@ export const matches = [
   date: "2026-06-29",
   time: "22:00",
 
-  status: "upcoming",
+  homeScore: 2,
+  awayScore: 1,
 
-  stream: "https://app.setantasports.com/live/305102",
+  status: "finished",
 },
 
 {
