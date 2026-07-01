@@ -28,6 +28,7 @@
     "title": "Standings",
     "group": "Group"
   },
+  "bracket": "Bracket",
 
   "notFound": {
     "title": "Page Not Found",
