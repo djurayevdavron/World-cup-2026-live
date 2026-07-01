@@ -1,5 +1,5 @@
 {
-  "worldCup": "JAHON CHEMPIONATI 2026",
+  "worldCup": "JCH-2026",
   "home": "Bosh sahifa",
   "matches": "O'yinlar",
   "standings": "Jadvallar",
@@ -29,6 +29,7 @@
     "title": "Jadvallar",
     "group": "Guruh"
   },
+  "bracket": "Setka",
 
   "notFound": {
     "title": "Sahifa Topilmadi",
