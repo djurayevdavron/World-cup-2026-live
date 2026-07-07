@@ -1862,9 +1862,10 @@ export const matches = [
   date: "2026-07-07",
   time: "21:00",
 
-  status: "upcoming",
+  homeScore: 3,
+  awayScore: 2,
 
-  stream: "https://app.setantasports.com/live/305540",
+  status: "finished",
 },
 
 {
@@ -1883,4 +1884,55 @@ export const matches = [
 
   stream: "https://app.setantasports.com/live/305541",
 },
+  // QUARTER FINALS
+  {
+    id: 97,
+
+    homeTeam: "France",
+    awayTeam: "Morocco",
+
+    homeFlag: "/flags/france.png",
+    awayFlag: "/flags/marocco.png",
+
+    date: "2026-07-10",
+    time: "01:00",
+
+    status: "upcoming",
+
+    stream: "https://app.setantasports.com/live/305542",
+  },
+
+  {
+    id: 98,
+
+    homeTeam: "Spain",
+    awayTeam: "Belgium",
+
+    homeFlag: "/flags/spain.png",
+    awayFlag: "/flags/belgium.png",
+
+    date: "2026-07-11",
+    time: "00:00",
+
+    status: "upcoming",
+
+    stream: "https://app.setantasports.com/live/305543",
+  },
+
+  {
+    id: 99,
+
+    homeTeam: "Norway",
+    awayTeam: "England",
+
+    homeFlag: "/flags/norway.png",
+    awayFlag: "/flags/england.png",
+
+    date: "2026-07-12",
+    time: "02:00",
+
+    status: "upcoming",
+
+    stream: "https://app.setantasports.com/live/305544",
+  },
 ];
