@@ -1880,9 +1880,10 @@ export const matches = [
   date: "2026-07-08",
   time: "01:00",
 
-  status: "upcoming",
+  homeScore: 0,
+  awayScore: 0,
 
-  stream: "https://app.setantasports.com/live/305541",
+  status: "finished",
 },
   // QUARTER FINALS
   {
@@ -1934,5 +1935,21 @@ export const matches = [
     status: "upcoming",
 
     stream: "https://app.setantasports.com/live/305544",
+  },
+  {
+    id: 100,
+
+    homeTeam: "Argentina",
+    awayTeam: "Switzerland",
+
+    homeFlag: "/flags/argentina.png",
+    awayFlag: "/flags/swits.png",
+
+    date: "2026-07-12",
+    time: "06:00",
+
+    status: "upcoming",
+
+    stream: "https://app.setantasports.com/live/305545",
   },
 ];
