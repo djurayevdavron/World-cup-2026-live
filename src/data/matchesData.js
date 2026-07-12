@@ -1934,9 +1934,10 @@ export const matches = [
     date: "2026-07-12",
     time: "02:00",
 
-    status: "upcoming",
+    homeScore: 1,
+    awayScore: 2,
 
-    stream: "https://app.setantasports.com/live/305544",
+    status: "finished",
   },
   {
     id: 100,
@@ -1950,8 +1951,43 @@ export const matches = [
     date: "2026-07-12",
     time: "06:00",
 
-    status: "upcoming",
+    homeScore: 3,
+    awayScore: 1,
 
-    stream: "https://app.setantasports.com/live/305545",
+    status: "finished",
   },
+  // SEMI FINALS
+{
+  id: 101,
+
+  homeTeam: "France",
+  awayTeam: "Spain",
+
+  homeFlag: "/flags/france.png",
+  awayFlag: "/flags/spain.png",
+
+  date: "2026-07-15",
+  time: "00:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305727",
+},
+
+{
+  id: 102,
+
+  homeTeam: "England",
+  awayTeam: "Argentina",
+
+  homeFlag: "/flags/england.png",
+  awayFlag: "/flags/argentina.png",
+
+  date: "2026-07-16",
+  time: "00:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305730",
+},
 ];
