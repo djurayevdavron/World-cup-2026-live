@@ -1973,6 +1973,7 @@ export const matches = [
   awayScore: 2,
 
   status: "finished",
+}
 
 {
   id: 102,
