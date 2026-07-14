@@ -1969,10 +1969,10 @@ export const matches = [
   date: "2026-07-15",
   time: "00:00",
 
-  status: "upcoming",
+  homeScore: 0,
+  awayScore: 2,
 
-  stream: "https://app.setantasports.com/live/305727",
-},
+  status: "finished",
 
 {
   id: 102,
