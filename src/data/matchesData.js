@@ -1987,8 +1987,44 @@ export const matches = [
   date: "2026-07-16",
   time: "00:00",
 
+  homeScore: 1,
+  awayScore: 2,
+
+  status: "finished",
+},
+  // 3RD PLACE
+{
+  id: 103,
+
+  homeTeam: "France",
+  awayTeam: "England",
+
+  homeFlag: "/flags/france.png",
+  awayFlag: "/flags/england.png",
+
+  date: "2026-07-19",
+  time: "02:00",
+
   status: "upcoming",
 
-  stream: "https://app.setantasports.com/live/305730",
+  stream: "https://app.setantasports.com/live/305825",
+},
+
+// FINAL
+{
+  id: 104,
+
+  homeTeam: "Spain",
+  awayTeam: "Argentina",
+
+  homeFlag: "/flags/spain.png",
+  awayFlag: "/flags/argentina.png",
+
+  date: "2026-07-20",
+  time: "00:00",
+
+  status: "upcoming",
+
+  stream: "https://app.setantasports.com/live/305732",
 },
 ];
